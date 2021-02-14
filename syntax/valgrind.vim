@@ -25,7 +25,7 @@ syn match valgrindSpecLine "^[+-]\{2}\d\+[+-]\{2}.*$"
 
 syn region valgrindRegion
   \ start=+^==\z(\d\+\)== \w.*$+
-  \ skip=+^==\z1==\( \|    .*\|  \S.*\)$+
+  \ skip=+^==\z1==\( \|   .*\|  \S.*\)$+
   \ end=+^+
   \ fold
   \ keepend
